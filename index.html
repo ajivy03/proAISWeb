@@ -44,7 +44,7 @@
 	</div>
 	<!-- preloader end  -->
 	<!-- header-area start -->
-	<header class="header-top-area">
+	<header id="home" class="header-top-area">
 		<div class="container d-none d-sm-block">
 			<div class="row header-top gx-0">
 				<div class="col-xl-4 col-lg-3 d-none d-lg-inline-block">
@@ -53,27 +53,7 @@
 								alt="Header-logo"></a>
 					</div>
 				</div>
-				<div class="col-xl-8 col-lg-9">
-					<ul class="right-query list-none d-sm-flex justify-content-center justify-content-lg-end">
-						<li>
-							<div class="icon"><i class="fas fa-phone"></i></div>
-							<div class="query-list">
-								<span>Phone Number</span>
-								<p class="text-heding">123.456.7890</p>
-							</div>
-						</li>
-						<li>
-							<div class="icon"><i class="fas fa-envelope"></i></div>
-							<div class="query-list">
-								<span>Email Address</span>
-								<p class="text-heding">contact@proais.net</p>
-							</div>
-						</li>
-						<li>
-							<a class="theme_btn quote-btn" href="contact.html">Free Consultation</a>
-						</li>
-					</ul>
-				</div>
+				
 			</div>
 		</div>
 		<div class="main-header-area">
@@ -85,133 +65,27 @@
 						</div>
 						<div class="d-none d-lg-block">
 							<nav id="topheader" class="navbar navbar-expand-lg justify-content-start py-0">
-								<ul class="navbar-nav list-style-none">
-									<li class="nav-item dropdown active">
-										<a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown2"
-											role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
-										<ul class="dropdown-menu">
-											<li class="dropdown-submenu">
-												<a class="dropdown-item dropdown-toggle" href="services.html"
-													id="navbarDropdow2a" role="button" data-bs-toggle="dropdown"
-													aria-expanded="false">Multipage <i
-														class="fal fa-chevron-down"></i></a>
-												<ul class="dropdown-menu dropdown-menu2"
-													aria-labelledby="navbarDropdown2a">
-													<li>
-														<a class="dropdown-item" href="index.html">Home Style 1</a>
-													</li>
-													<li>
-														<a class="dropdown-item" href="index-2.html">Home Style 2</a>
-													</li>
-													<li>
-														<a class="dropdown-item" href="index-3.html">Home Style 3</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="dropdown-submenu">
-												<a class="dropdown-item dropdown-toggle" href="services.html"
-													id="navbarDropdow2a" role="button" data-bs-toggle="dropdown"
-													aria-expanded="false">Onepages <i
-														class="fal fa-chevron-down"></i></a>
-												<ul class="dropdown-menu dropdown-menu2"
-													aria-labelledby="navbarDropdown2a">
-													<li>
-														<a class="dropdown-item" href="index_onepage.html">Onepage Style 1</a>
-													</li>
-													<li>
-														<a class="dropdown-item" href="index-2_onepage.html">Onepage Style 2</a>
-													</li>
-													<li>
-														<a class="dropdown-item" href="index-3_onepage.html">Onepage Style 3</a>
-													</li>
-												</ul>
-											</li>
-											
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="about.html">About</a>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdow2" role="button"
-											data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-										<ul class="dropdown-menu">
-											<li>
-												<a class="dropdown-item" href="services.html">Services</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="services-details.html">Services
-													Details</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
-											data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-										<ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
-											<li>
-												<a class="dropdown-item" href="team.html">Team</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="team-details.html">Team Details</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="portfolio.html">Portfolio</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="case-details.html">Case Details</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="price.html">Pricing</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="history.html">Our History</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="faq.html">Faq</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown5"
-											role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
-										<ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
-											<li>
-												<a class="dropdown-item" href="news.html">News</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="news-details.html">News Details</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="contact.html">Contact</a>
-									</li>
-								</ul>
+								<div class="single-page-nav">
+									<ul class="navbar-nav list-style-none">
+										<li class="nav-item">
+											<a class="nav-link" href="#home">Home</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#about-us">About</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#services">Services</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#contact">Contact</a>
+										</li>
+									</ul>
+								</div>
 							</nav>
 						</div>
 					</div>
 					<div class="col-lg-2 col-6 text-end">
 						<ul class="right-nav mb-0 d-flex align-items-center justify-content-end">
-							<li>
-								<div class="d-none d-sm-inline-block right-language pr-40">
-									<div class="dropdown">
-										<a class="language-btn dropdown-toggle" href="#" role="button"
-											id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-											English <i class="fal fa-chevron-down"></i>
-										</a>
-
-										<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-											<li><a class="dropdown-item" href="#">Arabic</a></li>
-											<li><a class="dropdown-item" href="#">USA</a></li>
-											<li><a class="dropdown-item" href="#">German</a></li>
-											<li><a class="dropdown-item" href="#">Chaina</a></li>
-											<li><a class="dropdown-item" href="#">Spanish</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
 							<li class="search-area d-none d-md-inline-block">
 								<a class="search_input nav-search search-trigger header-2-icon" href="#">
 									<i class="fal fa-search"></i></a>
@@ -261,15 +135,14 @@
 							<a class="yt" href="#" target="_blank"><i class="fab fa-youtube"></i></a>
 						</div>
 					</div>
-					<div class="slidebar-address">
-						<span>Get is touch</span>
-						<p>2307 Beverley Rd
+					  <div class="slidebar-address">
+						  <span>Get in touch</span>
+						  <p>2307 Beverley Rd
 							Brooklyn, New York 11226
 							United States.
 							789 098 098 09</p>
-					</div>
-					<a class="theme_btn theme_btn_bg offset-sidebar-btn" href="contact.html">Contact Us <i
-							class="fas fa-long-arrow-right"></i></a>
+					  </div>
+					<a class="theme_btn theme_btn_bg offset-sidebar-btn" href="#contact">Contact Us <i class="fas fa-long-arrow-right"></i></a> 
 				</div>
 			</div>
 			<div class="offset-sidebar-bg"><img src="img/pattern/offset-sidebar-bg.png" alt=""></div>
@@ -278,62 +151,10 @@
 		<!-- side-mobile-menu start -->
 		<nav class="side-mobile-menu">
 			<ul id="mobile-menu-active">
-				<li class="has-dropdown">
-					<a href="index.html">Home</a>
-					<ul class="sub-menu">
-						<li class="has-dropdown">
-							<a href="#">Multipage</a>
-							<ul class="sub-menu">
-								<li><a href="index.html">Home Style 1</a></li>
-								<li><a href="index-2.html">Home Style 2</a></li>
-								<li><a href="index-3.html">Home Style 3</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="#">Onepage</a>
-							<ul class="sub-menu">
-								<li><a href="index_onepage.html">Onepage Style 1</a></li>
-								<li><a href="index-2_onepage.html">Onepage Style 2</a></li>
-								<li><a href="index-3_onepage.html">Onepage Style 3</a></li>
-							</ul>
-						</li>						
-					</ul>
-				</li>
-				<li class="has-dropdown">
-					<a href="services.html">Services</a>
-					<ul class="sub-menu">
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="sub-menu">
-								<li><a href="#">Style 1</a></li>
-								<li><a href="#">Style 2</a></li>
-								<li><a href="#">Style 3</a></li>
-							</ul>
-						</li>
-						<li><a href="services-details.html">Services Details</a></li>
-					</ul>
-				</li>
-				<li><a href="about.html">About</a></li>
-				<li class="has-dropdown">
-					<a href="#">Pages</a>
-					<ul class="sub-menu">
-						<li><a href="team.html">Team</a></li>
-						<li><a href="team-details.html">Team Details</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="case-details.html">Case Details</a></li>
-						<li><a href="Price.html">Pricing</a></li>
-						<li><a href="history.html">Our History</a></li>
-						<li><a href="faq.html">Faq</a></li>
-					</ul>
-				</li>
-				<li class="has-dropdown">
-					<a href="news.html">News</a>
-					<ul class="sub-menu">
-						<li><a href="news.html">News</a></li>
-						<li><a href="news-details.html">News Details</a></li>
-					</ul>
-				</li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about-us">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 		<!-- side-mobile-menu end -->
@@ -354,10 +175,9 @@
 										<p class="pretitle-p">Next level automation system</p>
 										<h1 class="main-title-one">For Tech <span class="d-xxl-block fw-bold">IT
 												Solutions</span></h1>
-										<p class="aftertitle-p">We provide Website design ,Website Development , cheap
-											Domain and
-											hosting, reliable hosting server, Software Development</p>
-										<a class="theme_btn" href="contact.html">Get Started Now</a>
+												<p class="aftertitle-p">We provide Website design ,Website Development , cheap Domain and
+													hosting, reliable hosting server, Software Development</p>
+										<a class="theme_btn" href="#contact">Get Started Now</a>
 									</div>
 								</div>
 								<div class="col-xl-6 col-lg-6 d-flex align-items-end justify-content-center">
@@ -376,16 +196,16 @@
 								<div class="col-xl-6 col-lg-6 order-last order-lg-first">
 									<div class="slider__content">
 										<p class="pretitle-p">VR Project Management Software For Teams</p>
-										<h1 class="main-title-one">proAIS<span class="d-xxl-block fw-bold"></span></h1>
-										<p class="aftertitle-p">We provide Website design ,Website Development , cheap
-											Domain and
-											hosting, reliable hosting server, Software Development</p>
-										<a class="theme_btn" href="contact.html">Get Started Now</a>
+										<h1 class="main-title-one">Measure
+											Performance<span class="d-xxl-block fw-bold"></span></h1>
+											<p class="aftertitle-p">We provide Website design ,Website Development , cheap Domain and
+												hosting, reliable hosting server, Software Development</p>
+										<a class="theme_btn" href="#contact">Get Started Now</a>
 									</div>
 								</div>
 								<div class="col-xl-6 col-lg-6 d-flex align-items-end justify-content-center">
 									<div class="slider-right text-center">
-										<img class="d-none d-lg-block" src="img/slider/hero-man-1.png" alt="Hero Img">
+											<img class="d-none d-lg-block" src="img/slider/hero-man-1.png" alt="Hero Img">
 										<img class="d-md-inline-block d-lg-none" src="img/slider/hero-man-1.png"
 											alt="Hero Img">
 									</div>
@@ -398,7 +218,7 @@
 		</div>
 		<!--slider-area end-->
 		<!--about-us-area start-->
-		<section class="about-us-area pt-155 pb-120 pt-md-60 pb-md-30 pt-xs-60 pb-xs-30">
+		<section id="about-us" class="about-us-area pt-155 pb-120 pt-md-60 pb-md-30 pt-xs-60 pb-xs-30">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
@@ -438,7 +258,7 @@
 									</div>
 								</li>
 							</ul>
-							<a href="services.html" class="theme_btn">Our Services</a>
+							<a href="#services" class="theme_btn">Our Services</a>
 						</div>
 					</div>
 				</div>
@@ -446,7 +266,7 @@
 		</section>
 		<!--about-us-area end-->
 		<!--services-area start-->
-		<section class="grey-bg services-area pt-120 pb-170 pt-md-60 pt-xs-60 pb-xs-60">
+		<section id="services" class="grey-bg services-area pt-120 pb-170 pt-md-60 pt-xs-60 pb-xs-60">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-6">
@@ -458,448 +278,135 @@
 					</div>
 				</div>
 			</div>
-			<div class="custom-container-1">
-				<div class="services-slide owl-carousel">
-					<div class="item">
-						<div class="single-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="single-services ">
 							<div class="s-icon">
 								<img src="img/icon/s-1.png" alt="Services icon">
 							</div>
-							<h6>Service 01</h6>
-							<h4 class="sub-title">Cyber Security & Data</h4>
-							<ul class="text-list">
+							<!-- <h6>Service 01</h6> -->
+							<h4 class="sub-title">Information Technology Consulting Services</h4>
+							ProAIS strives to offer top notch IT consulting services to our clients to assist with their IT resource requirements 
+							that directly align with their business and tech strategy with the goal of superior customer service.<br/>
+							Our IT advisory service will help you transform, digitalize and modernize your software portfolio, optimize your IT operations & services.
+							<br/>
+							<br/>
+							<!-- <ul class="text-list">
 								<li>Objectively innovate</li>
 								<li>Holisticly predominate</li>
 								<li>Completely pursue</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
-					<div class="item">
+					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="single-services">
 							<div class="s-icon">
-								<img src="img/icon/s-1a.png" alt="Services icon">
+								<img src="img/icon/s-3b.png" alt="Services icon">
 							</div>
-							<h6>Service 02</h6>
-							<h4 class="sub-title">Infrastructure Plan</h4>
-							<ul class="text-list">
+							<!-- <h6>Service 02</h6> -->
+							<h4 class="sub-title">AI Product Development</h4>
+							ProAIS' core is AI product development. We want to leverage Artificial Intelligence to proactively Enhance Safety 
+							in the field of adventure sports and motorcycle touring. <br/>
+							AI in conjunction with Augmented Reality, vehicle to vehicle communication, 360-degree road views, blind spot monitoring 
+							are few factors we are integrating to mitigiate the risks.
+							<!-- <ul class="text-list">
 								<li>Objectively innovate</li>
 								<li>Holisticly predominate</li>
 								<li>Completely pursue</li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="single-services">
-							<div class="s-icon">
-								<img src="img/icon/s-1b.png" alt="Services icon">
-							</div>
-							<h6>Service 03</h6>
-							<h4 class="sub-title">IT Management</h4>
-							<ul class="text-list">
-								<li>Objectively innovate</li>
-								<li>Holisticly predominate</li>
-								<li>Completely pursue</li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="single-services">
-							<div class="s-icon">
-								<img src="img/icon/s-1c.png" alt="Services icon">
-							</div>
-							<h6>Service 04</h6>
-							<h4 class="sub-title">QA & Testing</h4>
-							<ul class="text-list">
-								<li>Objectively innovate</li>
-								<li>Holisticly predominate</li>
-								<li>Completely pursue</li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="single-services">
-							<div class="s-icon">
-								<img src="img/icon/s-1.png" alt="Services icon">
-							</div>
-							<h6>Service 01</h6>
-							<h4 class="sub-title">IT Counsultancy</h4>
-							<ul class="text-list">
-								<li>Objectively innovate</li>
-								<li>Holisticly predominate</li>
-								<li>Completely pursue</li>
-							</ul>
-						</div>
-					</div>
-					<div class="item">
-						<div class="single-services">
-							<div class="s-icon">
-								<img src="img/icon/s-1a.png" alt="Services icon">
-							</div>
-							<h6>Service 02</h6>
-							<h4 class="sub-title">Business Reform</h4>
-							<ul class="text-list">
-								<li>Objectively innovate</li>
-								<li>Holisticly predominate</li>
-								<li>Completely pursue</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!--services-area end-->
-		<!--work-proces-area start-->
-		<section class="work-process-area">
-			<div class="container">
-				<ul class="process-bg">
-					<li>
-						<div class="work-process">
-							<div class="process-icon">
-								<img src="img/icon/p-1a.png" alt="Process Icon">
-							</div>
-							<h6>Putting data into<br>
-								context</h6>
-						</div>
-					</li>
-					<li>
-						<div class="work-process">
-							<div class="process-icon">
-								<img src="img/icon/p-1b.png" alt="Process Icon">
-							</div>
-							<h6>Putting data into<br>
-								context</h6>
-						</div>
-					</li>
-					<li>
-						<div class="work-process">
-							<div class="process-icon">
-								<img src="img/icon/p-1c.png" alt="Process Icon">
-							</div>
-							<h6>Putting data into<br>
-								context</h6>
-						</div>
-					</li>
-					<li>
-						<div class="work-process">
-							<div class="process-icon">
-								<img src="img/icon/p-1d.png" alt="Process Icon">
-							</div>
-							<h6>Putting data into<br>
-								context</h6>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<!--work-proces-area end-->
-		<!--brand-area start-->
-		<section class="brand-area">
-			<div class="brand-bg">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-6">
-							<div class="brand-title text-center mb-45">
-								<h6 class="semi-title title-line">Happy Sponsors</h6>
-								<h2 class="sect-title">2500 happy users around world</h2>
-							</div>
-						</div>
-					</div>
-					<div class="brand-slide owl-carousel mb-60">
-						<div class="brand-item">
-							<a class="brand-img" href="#">
-								<img class="mb-50 front" src="img/brand/brand-1.png" alt="Brand">
-								<img class="mb-50 back" src="img/brand/brand-1g.png" alt="Brand">								
-							</a>
-						</div>
-						<div class="brand-item">
-							<a class="brand-img" href="#">
-								<img class="mb-50 front" src="img/brand/brand-2.png" alt="Brand">
-								<img class="mb-50 back" src="img/brand/brand-2g.png" alt="Brand">								
-							</a>
-						</div>
-						<div class="brand-item">
-							<a class="brand-img" href="#">
-								<img class="mb-50 front" src="img/brand/brand-3.png" alt="Brand">
-								<img class="mb-50 back" src="img/brand/brand-3g.png" alt="Brand">								
-							</a>
-						</div>
-						<div class="brand-item">
-							<a class="brand-img" href="#">
-								<img class="mb-50 front" src="img/brand/brand-4.png" alt="Brand">
-								<img class="mb-50 back" src="img/brand/brand-4g.png" alt="Brand">								
-							</a>
-						</div>
-						<div class="brand-item">
-							<a class="brand-img" href="#">
-								<img class="mb-50 front" src="img/brand/brand-5.png" alt="Brand">
-								<img class="mb-50 back" src="img/brand/brand-5g.png" alt="Brand">								
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 text-center">
-							<a class="theme_btn" href="contact.html">You Will Be Next?</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--brand-area end-->
-		<!--portfolio-area start-->
-		<section class="portfolio-area portfolio-bg nav-style-1 pt-120 pb-120 pt-xs-60 pt-xs-60">
+
+
+		<!--contact-area start-->
+		<section id="contact" class="contact-area pt-120 pb-90 pt-md-60 pb-md-60 pt-xs-60 pb-xs-60">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8">
-						<div class="portfolio-section-title">
-							<h2 class="style-text">Portfolio</h2>
-							<h6 class="semi-title title-line">Portfolio</h6>
-							<h2 class="sect-title">Introduce Our Projects</h2>
+					<!-- <div class="col-lg-6">
+						<div class="section-title mb-60">
+							<p class="fs-14 lh-1 mb-15">Get In Touch</p>
+							<h2 class="sect-title lh-1">Let's help you!</h2>
 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="custom-container-1">
-				<div class="portfolio-slide owl-carousel">
-					<div class="item">
-						<div class="portfolio-wrapper">
-							<img class="img-fluid" src="img/portfolio/pr-1.jpg" alt="Portfolio Img">
-							<span class="brand-logo"><img src="img/portfolio/brand-logo-1.png" alt="Brand Logo"></span>
-							<div class="single-portfolio">
-								<span>UI & UX, IT Solution</span>
-								<h4 class="portfolio-title text-white">Smartrics Web Solution</h4>
-							</div>
-							<a class="pf-btn" href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="portfolio-wrapper">
-							<img class="img-fluid" src="img/portfolio/pr-3.jpg" alt="Portfolio Img">
-							<span class="brand-logo"><img src="img/portfolio/brand-logo-1.png" alt="Brand Logo"></span>
-							<div class="single-portfolio">
-								<span>UI & UX, IT Solution</span>
-								<h4 class="portfolio-title text-white">Smartrics Web Solution</h4>
-							</div>
-							<a class="pf-btn" href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="portfolio-wrapper">
-							<img class="img-fluid" src="img/portfolio/pr-1.jpg" alt="Portfolio Img">
-							<span class="brand-logo"><img src="img/portfolio/brand-logo-1.png" alt="Brand Logo"></span>
-							<div class="single-portfolio">
-								<span>UI & UX, IT Solution</span>
-								<h4 class="portfolio-title text-white">Smartrics Web Solution</h4>
-							</div>
-							<a class="pf-btn" href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="portfolio-wrapper">
-							<img class="img-fluid" src="img/portfolio/pr-3.jpg" alt="Portfolio Img">
-							<span class="brand-logo"><img src="img/portfolio/brand-logo-1.png" alt="Brand Logo"></span>
-							<div class="single-portfolio">
-								<span>UI & UX, IT Solution</span>
-								<h4 class="portfolio-title text-white">Smartrics Web Solution</h4>
-							</div>
-							<a class="pf-btn" href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="portfolio-wrapper">
-							<img class="img-fluid" src="img/portfolio/pr-1.jpg" alt="Portfolio Img">
-							<span class="brand-logo"><img src="img/portfolio/brand-logo-1.png" alt="Brand Logo"></span>
-							<div class="single-portfolio">
-								<span>UI & UX, IT Solution</span>
-								<h4 class="portfolio-title text-white">Smartrics Web Solution</h4>
-							</div>
-							<a class="pf-btn" href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--portfolio-area end-->
-		<!--feature-area start-->
-		<section class="feature-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-						<div class="single-feature">
-							<div class="feature-content">
-								<h6>Free 15-Days Use Trial</h6>
-								<div class="f-icon">
-									<img src="img/icon/f-1a.png" alt="F-icon">
+						<form class="row contact-form mb-30" action="#">
+							<div class="col-lg-6 col-md-6">
+								<div class="input-box mb-20">
+									<input type="text" placeholder="Full name **">
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-						<div class="single-feature">
-							<div class="feature-content">
-								<h6>Flexiable Pricing Plan To Start</h6>
-								<div class="f-icon">
-									<img src="img/icon/f-1b.png" alt="F-icon">
+							<div class="col-lg-6 col-md-6">
+								<div class="input-box mail-input mb-20">
+									<input type="text" placeholder="Email address **">
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-						<div class="single-feature">
-							<div class="feature-content fc-3">
-								<h6>Intergate With Popular Software</h6>
-								<div class="f-icon">
-									<img src="img/icon/f-1c.png" alt="F-icon">
+							<div class="col-lg-12 mb-20">
+								<div class="input-box sub-input">
+									<select name="job" class="job-select">
+										<option value="Subject">Subject</option>
+										<option value="">It</option>
+										<option value="">Development</option>
+										<option value="">Ui/Ux</option>
+									</select>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-						<div class="single-feature">
-							<div class="feature-content fc-3">
-								<h6>Update Lifetime & Dedicate Support</h6>
-								<div class="f-icon">
-									<img src="img/icon/f-1d.png" alt="F-icon">
+							<div class="col-12">
+								<div class="input-box text-input mb-15">
+									<textarea name="message" cols="30" rows="10"
+										placeholder="Enter massge **"></textarea>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--feature-area end-->
-		<!--testimonial-area start-->
-		<section class="testimonial-area pt-110 pb-90 pt-md-5 pb-md-30 pt-xs-60 pb-xs-30">
-			<div class="container">
-				<div class="row align-items-center">
+							<div class="col-12">
+								<button class="form-btn form-btn3">Submit</button>
+							</div>
+						</form>
+					</div> -->
 					<div class="col-lg-6">
-						<div class="testimonial-img-wrapper mb-30">
-							<img class="pattern" src="img/testimonial/pattern-1.png" alt="Pattern">
-							<img class="images one" src="img/testimonial/t-1a.jpg" alt="T-img">
-							<img class="images two" src="img/testimonial/t-1b.jpg" alt="T-img">
-							<img class="images three" src="img/testimonial/t-1c.jpg" alt="T-img">
-							<img class="images four" src="img/testimonial/t-1d.jpg" alt="T-img">
-							<span class="images five"><img src="img/testimonial/review-1.png" alt="T-icon"></span>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="testimonial-text-wrapper mb-30 pl-30 pl-lg-0 pl-md-0 pl-xs-0">
+						<div class="contact-short-info pr-50 pr-lg-0 pr-md-0 pr-xs-0 pl-80 pl-lg-0 pl-md-0 pl-xs-0">
 							<div class="section-title mb-30">
-								<h2 class="style-text">Review</h2>
-								<h6 class="semi-title title-line">Testimonials</h6>
-								<h2 class="sect-title">Refreshing your brand and paving</h2>
+								<!-- <p class="fs-14 lh-1 mb-15">Contact Us</p> -->
+								<h2 class="sect-title lh-1">Contact Us</h2>
 							</div>
-							<p class="paragraph-title mb-45">We help our clients succeed by creating brand identities,
-								digital IT experiences, and print materials. Helping our clients reach their full
-								potential on the market.</p>
-							<div class="quote-paragraph mt-0 mb-0">
-								<div class="author">
-									<img src="img/testimonial/author.jpg" alt="Author">
+							<!-- <div class="adress-box">
+								<div class="icon-link">
+									<i class="fas fa-phone"></i>
 								</div>
-								<div class="quote-text">
-									<p class="paragraph-title">“ Professional & modern, a theme designed
-										to help your business stand out from the rest.
-										For marketing firms. ”.</p>
-									<h6>Alonso W. William <span>-Head Of Idea </span></h6>
+								<div class="address-content">
+									<p class="fs-14">Phone Number</p>
+									<h6>890. 908. 645. 45, 908 (908) 897 89</h6>
+								</div>
+							</div> -->
+							<div class="adress-box ab-2">
+								<div class="icon-link">
+									<i class="fas fa-envelope"></i>
+								</div>
+								<div class="address-content">
+									<p class="fs-14">Email </p>
+									<h6>contact@proais.net</h6>
 								</div>
 							</div>
+							<!-- <div class="adress-box">
+								<div class="icon-link">
+									<i class="fas fa-map-marker-alt"></i>
+								</div>
+								<div class="address-content">
+									<p class="fs-14">Office Address</p>
+									<h6>12/A, Rosalina Halim Tower, New York, USA</h6>
+								</div>
+							</div> -->
+							<!-- <div class="mt-15">
+								<a href="#contact" class="theme_btn theme_btn3">Get Right Direction <i
+										class="fal fa-long-arrow-right"></i></a>
+							</div> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!--testimonial-area end-->
-		<!--blog-area start-->
-		<section class="grey-bg blog-area blog-nav nav-style-1 pt-120 pb-120 pt-md-60 pb-md-60 pt-xs-60 pb-xs-60">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="blog-section-title text-start">
-							<h2 class="style-text">News</h2>
-							<h6 class="semi-title title-line">Blog & Insights</h6>
-							<h2 class="sect-title">Articles from resource library</h2>
-						</div>
-					</div>
-				</div>
-				<div class="blog-slide owl-carousel">
-					<div class="item">
-						<div class="blogs">
-							<div class="blogs__thumb">
-								<a href="news-details.html">
-									<img src="img/blog/blog-1.jpg" alt="Blog Img">
-								</a>
-							</div>
-							<span class="tag">IT Solution</span>
-							<div class="blogs__content">
-								<p><i class="fal fa-calendar-alt"></i> June 21, 2022</p>
-								<h5><a class="blog-title" href="news-details.html">Technology support allows
-										erie non-profit to serve</a></h5>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="blogs">
-							<div class="blogs__thumb">
-								<a href="news-details.html">
-									<img src="img/blog/blog-2.jpg" alt="Blog Img">
-								</a>
-							</div>
-							<span class="tag">IT Solution</span>
-							<div class="blogs__content">
-								<p><i class="fal fa-calendar-alt"></i> June 21, 2022</p>
-								<h5><a class="blog-title" href="news-details.html">Technology support allows
-										erie non-profit to serve</a></h5>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="blogs">
-							<div class="blogs__thumb">
-								<a href="news-details.html">
-									<img src="img/blog/blog-3.jpg" alt="Blog Img">
-								</a>
-							</div>
-							<span class="tag">IT Solution</span>
-							<div class="blogs__content">
-								<p><i class="fal fa-calendar-alt"></i> June 21, 2022</p>
-								<h5><a class="blog-title" href="news-details.html">Technology support allows
-										erie non-profit to serve</a></h5>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="blogs">
-							<div class="blogs__thumb">
-								<a href="news-details.html">
-									<img src="img/blog/blog-4.jpg" alt="Blog Img">
-								</a>
-							</div>
-							<span class="tag">IT Solution</span>
-							<div class="blogs__content">
-								<p><i class="fal fa-calendar-alt"></i> June 21, 2022</p>
-								<h5><a class="blog-title" href="news-details.html">Technology support allows
-										erie non-profit to serve</a></h5>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="blogs">
-							<div class="blogs__thumb">
-								<a href="news-details.html">
-									<img src="img/blog/blog-1.jpg" alt="Blog Img">
-								</a>
-							</div>
-							<span class="tag">IT Solution</span>
-							<div class="blogs__content">
-								<p><i class="fal fa-calendar-alt"></i> June 21, 2022</p>
-								<h5><a class="blog-title" href="news-details.html">Technology support allows
-										erie non-profit to serve</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--blog-area end-->
+		<!--contact-area end-->
 
 
 	</main>
@@ -908,65 +415,12 @@
 		<div class="container">
 			<div class="row mb-15">
 				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp2 animated" data-wow-delay=".1s">
-					<div class="footer__widget mb-30">
-						<h6 class="widget-title text-white pb-15 mb-35">Get In Touch</h6>
-						<address class="address-box">
-							<span>2307 Beverley Rd</span>
-							<span>Brooklyn, New York 11226</span>
-							<span>United States.</span>
-						</address>
-						<address>
-							<span><b class="text-white">Open:</b> Monday to Saturday</span>
-							<span>From 7h to 18h or talk to an expert</span>
-							<span>0712-0610-3314 – available 24/7</span></address>
-					</div>
+					
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp2 animated" data-wow-delay=".3s">
-					<div class="footer__widget mb-30">
-						<h6 class="widget-title text-white pb-15 mb-35">Quick links</h6>
-						<ul class="fot-list fot-flex">
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="faq.html">FAQs</a></li>
-							<li><a href="services.html">Our Services</a></li>
-							<li><a href="team.html">Meet Our Team</a></li>
-							<li><a href="portfolio.html">All Industries</a></li>
-							<li><a href="about.html">Mission & Values</a></li>
-							<li><a href="case-details.html">Case Studies</a></li>
-							<li><a href="history.html">Our Approach</a></li>
-							<li><a href="about.html">Insights</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp2 animated" data-wow-delay=".5s">
-					<div class="footer__widget form-widget mb-30">
-						<h6 class="widget-title text-white pb-20 mb-35">Subscribe Now</h6>
-						<p>Sign up to receive the latest articles</p>
-						<form class="subscribe-form " action="#">
-							<div class="input-box mail-input mb-10">
-								<input type="text" placeholder="Enter email address">
-							</div>
 
-							<button class="theme_btn subscribe-btn">Subscribe Now <i
-									class="fal fa-long-arrow-right"></i></button>
-						</form>
-					</div>
-				</div>
-				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp2 animated" data-wow-delay=".7s">
-					<div class="footer__widget mb-30 pl-55 pl-lg-0 pl-md-0 pl-xs-0">
-						<h6 class="widget-title text-white pb-15 mb-35">Our Services</h6>
-						<ul class="fot-list">
-							<li><a href="contact.html">IT Support</a></li>
-							<li><a href="contact.html">IT Consultancy</a></li>
-							<li><a href="services.html">Cloud Computing</a></li>
-							<li><a href="services.html">Cyber Security</a></li>
-							<li><a href="contact.html">Custom Software</a></li>
-						</ul>
-					</div>
-				</div>
 			</div>
 		</div>
-		<div class="container pt-35">
+		<!-- <div class="container pt-35">
 			<div class="row white-bg align-items-center gx-lg-0 pt-15">
 				<div class="col-xl-3 col-lg-4 col-md-6 text-center text-md-start">
 					<div class="logo-area mb-15 pl-30 pl-md-0 pl-xs-0">
@@ -988,7 +442,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</footer>
 	<!--footer-area end-->
 	<!-- Fullscreen search -->
@@ -1010,6 +464,7 @@
 
 	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.singlePageNav.js"></script>
 	<script src="js/vendor/popper.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
@@ -1024,6 +479,10 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+
+
+
+	
 </body>
 
 </html>
